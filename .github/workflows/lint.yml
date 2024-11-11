@@ -15,4 +15,4 @@ jobs:
             - name: Install Flake8 
               run: pip install flake8 
             - name: Run Flake8
-              run: flake8 quiz_app/controllers/quiz_controller.py quiz_app/modes/quiz_model.py quiz_app/services/quiz_service.py
+              run: flake8 quiz_app/src/controllers/quiz_controller.py quiz_app/src/models/quiz_model.py quiz_app/src/services/quiz_service.py
